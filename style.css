@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    align-items: center;
+}
+
+#div1{
+    width: 100%;
+    background-color: rgb(228, 245, 211);
+    line-height: 50px;
+    font-size: 18px;
+    color: #e24f4f;
+    float: left;
+    text-align: center
+
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(244, 12, 12);
+}
+
+#classificar{
+    
+        background-color: #a31645;
+        border: none;
+        color: #fff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.5s ease;
+    
+    
+}
+
+#classificar:hover{
+    background-color: #da6e92;
+}
