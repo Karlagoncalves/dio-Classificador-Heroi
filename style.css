@@ -4,24 +4,28 @@ body {
     align-items: center;
 }
 
-#div1{
+#div1, #div2{
     width: 100%;
     background-color: rgb(228, 245, 211);
     line-height: 50px;
     font-size: 18px;
     color: #e24f4f;
     float: left;
-    text-align: center
-
+    text-align: center;
+    border-radius: 18px;
 }
 
-#resultado {
+#div2{
+    margin-top: 20px;
+}
+
+#resultado, #ranker {
     margin-top: 20px;
     font-weight: bold;
     color: rgb(244, 12, 12);
 }
 
-#classificar{
+#classificar, #calculadora{
     
         background-color: #a31645;
         border: none;

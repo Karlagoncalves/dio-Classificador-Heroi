@@ -20,8 +20,14 @@ if (xp < 1000) {
     xpNivel = "Imortal"
 }else if(xp >= 10001){
     xpNivel = "Radiante"
-}else{
-    xpNivel = "Quantidade de XP informada inválida"
+}
+
+if(nome == null || (nome.length == 0)){
+    nome = "-Nome não informado-"
+}
+
+if(xpNivel == undefined){
+    xpNivel = "-Quantidade de XP não informada-"
 }
 
 document.getElementById("resultado").textContent = `O Herói de nome ${nome} está no nível de ${xpNivel}.`;
