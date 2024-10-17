@@ -1,4 +1,4 @@
-# Classificador de Nível de Herói
+# 1️⃣ Classificador de Nível de Herói
 
 ## Descrição
 
@@ -10,6 +10,9 @@ Este projeto classifica heróis com base em sua experiência (XP) e exibe o nív
 - **`classificador.js`**: Lógica para classificar o herói.
 - **`style.css`**: Estilos para a apresentação da página.
 - **`calcularRanker.js`**: Lógica para calcular o saldo de partidas ranqueadas e determinar o nível do jogador.
+- **`dadosHeroi.js`**: Lógica para a definição da classe Heroi.
+- **`ataqueHeroi.js`**: Lógica para o ataque do herói e interação com a interface.
+
 
 ## Níveis de XP
 
@@ -29,11 +32,11 @@ Este projeto classifica heróis com base em sua experiência (XP) e exibe o nív
 - "O Herói de nome **{nome}** está no nível de **{xpNivel}**."
 
 
-## Desafio: Calculadora de Partidas Rankeadas
+## 2️⃣ Desafio: Calculadora de Partidas Rankeadas
 
 ### Objetivo
 
-Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador. Em seguida, retorne o resultado para uma variável, onde o saldo de partidas ranqueadas deve ser calculado através da expressão (vitórias - derrotas).
+Criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador. Em seguida, retornar o resultado para uma variável, onde o saldo de partidas ranqueadas deve ser calculado através da expressão (vitórias - derrotas).
 
 ### Níveis de Vitórias
 
@@ -50,12 +53,34 @@ Crie uma função que recebe como parâmetro a quantidade de vitórias e derrota
 - Ao final, deve-se exibir a seguinte mensagem:
 - "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
+# 3️⃣ Escrevendo as classes de um Jogo
+
+## Descrição
+
+Implementar uma classe genérica que representa um herói de aventura. A classe possue propriedades como nome, tipo (guerreiro, mago, monge, ninja) e um método que simule um ataque do herói, exibindo uma mensagem apropriada.
+
+
+- **Onde**: 
+  - `{tipo}` é o tipo de herói (guerreiro, mago, monge, ninja).
+  - `{ataque}` varia conforme o tipo:
+    - Mago: "usou magia"
+    - Guerreiro: "usou espada"
+    - Monge: "usou artes marciais"
+    - Ninja: "usou shuriken"
+
+
+### Saída
+
+- Ao final, deve-se exibir a seguinte mensagem:
+- "O Herói **{nome}** com o tipo **{tipo}** atacou usando **{ataque}** e tem **{quantidade XP}** XP."
+
 ## Como Usar
 
 1. Clone o repositório.
 2. Abra `index.html` em um navegador.
 3. Clique em "Classificar Herói" e insira as informações solicitadas.
-4. Utilize a funcionalidade da "Calculadora de partidas", disponível na mesma interface.
+4. Clique em "Calculadora de partidas" e insira as informações solicitadas.
+5. Clique em "Ataque" e insira as informações solicitadas.
 
 ## Contribuições
 
